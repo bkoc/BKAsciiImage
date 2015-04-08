@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BKAsciiImage', :exclusive => true do
+  pod "BKAsciiImage", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "BKAsciiImage", :path => "../"
+
+  
+end
