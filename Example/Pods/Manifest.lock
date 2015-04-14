@@ -1,0 +1,14 @@
+PODS:
+  - BKAsciiImage (0.1.0)
+
+DEPENDENCIES:
+  - BKAsciiImage (from `../`)
+
+EXTERNAL SOURCES:
+  BKAsciiImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKAsciiImage: 380c2ee31a7bd50ea73a6f91a75d6daf2684fc2f
+
+COCOAPODS: 0.36.3
