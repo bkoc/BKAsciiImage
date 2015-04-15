@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BKAsciiImage: 380c2ee31a7bd50ea73a6f91a75d6daf2684fc2f
+  BKAsciiImage: 3d54fe78494781d41cd94b036a89bdce53bf739c
 
 COCOAPODS: 0.36.3

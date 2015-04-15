@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BKAsciiDefinition.h
+../../../../../BKAsciiImage/BKAsciiDefinition.h

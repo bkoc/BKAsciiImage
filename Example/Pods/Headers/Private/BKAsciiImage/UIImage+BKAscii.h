@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/UIKit/UIImage+BKAscii.h
+../../../../../BKAsciiImage/UIKit/UIImage+BKAscii.h

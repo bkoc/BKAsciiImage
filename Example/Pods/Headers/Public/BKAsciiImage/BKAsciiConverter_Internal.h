@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/BKAsciiConverter_Internal.h
+../../../../../BKAsciiImage/BKAsciiConverter_Internal.h
