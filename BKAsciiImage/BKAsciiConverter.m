@@ -26,7 +26,7 @@
 #import "BKAsciiConverter_Internal.h"
 #import "BKAsciiDefinition.h"
 
-#define kDefaultFontSize 12.0
+#define kDefaultFontSize 10.0
 
 @interface BKAsciiConverter ()
 @property (strong, nonatomic) BKAsciiDefinition* definition;

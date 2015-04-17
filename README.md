@@ -1,13 +1,19 @@
 # BKAsciiImage
 
-[![CI Status](http://img.shields.io/travis/Barış Koç/BKAsciiImage.svg?style=flat)](https://travis-ci.org/Barış Koç/BKAsciiImage)
 [![Version](https://img.shields.io/cocoapods/v/BKAsciiImage.svg?style=flat)](http://cocoapods.org/pods/BKAsciiImage)
 [![License](https://img.shields.io/cocoapods/l/BKAsciiImage.svg?style=flat)](http://cocoapods.org/pods/BKAsciiImage)
 [![Platform](https://img.shields.io/cocoapods/p/BKAsciiImage.svg?style=flat)](http://cocoapods.org/pods/BKAsciiImage)
 
+
+### As seen on Cmd.fm iOS App
+
+![Cmd.fm screenshot 1](/Screenshots/cmd_fm01.jpg)
+![Cmd.fm screenshot 2](/Screenshots/cmd_fm02.jpg)
+
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+TODO
 
 ## Requirements
 
@@ -22,7 +28,7 @@ pod "BKAsciiImage"
 
 ## Author
 
-Barış Koç, bariskoc@gmail.com
+Barış Koç, https://github.com/bkoc
 
 ## License
 

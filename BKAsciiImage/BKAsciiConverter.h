@@ -30,7 +30,7 @@
 /// Instances
 @interface BKAsciiConverter : NSObject
 
-/// default: System font of size 12
+/// default: System font of size 10
 @property (strong, nonatomic) UIFont *font;
 /// default: Clear color. Image background is transparent
 @property (strong, nonatomic) UIColor *backgroundColor;
