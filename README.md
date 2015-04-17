@@ -7,6 +7,8 @@
 
 ### As seen on Cmd.fm iOS App
 
+https://itunes.apple.com/app/cmd.fm-radio-for-geeks-hackers/id935765356
+
 ![Cmd.fm screenshot 1](/Screenshots/cmd_fm01.jpg)
 ![Cmd.fm screenshot 2](/Screenshots/cmd_fm02.jpg)
 
