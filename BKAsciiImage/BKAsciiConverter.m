@@ -137,7 +137,7 @@
     CGAffineTransform transform = CGAffineTransformMake(1.0, 0.0, 0.0, -1.0, 0.0, 0.0); // reflect about x axis
     CGContextSetTextMatrix(ctx, transform);
     
-    BKAsciiDefinition *asciiDefinition = [[BKAsciiDefinition alloc] init];
+    BKAsciiDefinition *asciiDefinition = self.definition;
     
     CGFloat blockWidth = input.size.width / pixelGrid.width;
     CGFloat blockHeight = input.size.height / pixelGrid.height;
@@ -176,7 +176,6 @@
     
     UIImage *scaledImage = [self downscaleImage:input WithFactor: asciiGridWidth];
     BlockGrid *pixelGrid = [self pixelGridForImage:scaledImage];
-    BKAsciiDefinition *asciiDefinition = [[BKAsciiDefinition alloc] init];
     
     NSMutableString *str = [[NSMutableString alloc] initWithString:@""];
     for (int y=0; y < pixelGrid.height; y++) {
@@ -184,7 +183,7 @@
             int col = x; int row = y;
             block_t block = [pixelGrid blockAtRow:row col:col];
             CGFloat luminance = [self _luminance:block];
-            NSString *ascii = [asciiDefinition stringForLuminance: luminance];
+            NSString *ascii = [self.definition stringForLuminance: luminance];
             [str appendString:ascii];
             [str appendString:@" "];
         }
