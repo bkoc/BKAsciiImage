@@ -5,6 +5,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/BKAsciiImage.svg?style=flat)](http://cocoapods.org/pods/BKAsciiImage)
 
 
+![Example gif image](./Screenshots/example.gif)
+
 ### As seen on Cmd.fm iOS App
 
 https://itunes.apple.com/app/cmd.fm-radio-for-geeks-hackers/id935765356
