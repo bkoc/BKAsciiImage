@@ -23,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		E79CE9C11ADCF89800EF9661 /* BKAsciiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79CE9C01ADCF89800EF9661 /* BKAsciiTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +64,6 @@
 		C5FD667941EA91EE31026528 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C74608A042756BA1198789CB /* Pods-BKAsciiImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKAsciiImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BKAsciiImage/Pods-BKAsciiImage.debug.xcconfig"; sourceTree = "<group>"; };
 		CB59F5E3CD5E2931DB80B01B /* libPods-BKAsciiImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BKAsciiImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E79CE9BF1ADCF89800EF9661 /* BKAsciiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAsciiTableViewController.h; sourceTree = "<group>"; };
-		E79CE9C01ADCF89800EF9661 /* BKAsciiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAsciiTableViewController.m; sourceTree = "<group>"; };
 		F67BAA3345CE9A4F32214144 /* Pods-BKAsciiImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKAsciiImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-BKAsciiImage/Pods-BKAsciiImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +148,6 @@
 				6003F5A6195388D20070C39A /* BKViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				E79CE9BF1ADCF89800EF9661 /* BKAsciiTableViewController.h */,
-				E79CE9C01ADCF89800EF9661 /* BKAsciiTableViewController.m */,
 			);
 			path = BKAsciiImage;
 			sourceTree = "<group>";
@@ -362,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79CE9C11ADCF89800EF9661 /* BKAsciiTableViewController.m in Sources */,
 				6003F59E195388D20070C39A /* BKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
