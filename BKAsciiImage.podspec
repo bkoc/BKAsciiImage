@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BKAsciiImage"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Convert any UIImage to ascii art."
   s.homepage         = "https://github.com/bkoc/BKAsciiImage"
   s.license          = 'MIT'
