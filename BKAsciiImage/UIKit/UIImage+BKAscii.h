@@ -39,11 +39,11 @@
 
 /// Process in the background queue. Handler will be called on main thread
 - (void)bk_asciiImageWithFont:(UIFont*)font
-                          bgColor:(UIColor*)bgColor
-                          columns:(int)columns
-                         reversed:(BOOL)reversed
-                        grayscale:(BOOL)grayscale
-                completionHandler:(void (^)(UIImage *asciiImage))handler;
+                      bgColor:(UIColor*)bgColor
+                      columns:(CGFloat)columns
+                     reversed:(BOOL)reversed
+                    grayscale:(BOOL)grayscale
+            completionHandler:(void (^)(UIImage *asciiImage))handler;
 
 /// Process in the background queue. Handler will be called on main thread
 -(void)bk_asciiStringCompletionHandler:(void (^)(NSString *asciiString))handler;

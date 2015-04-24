@@ -102,7 +102,7 @@
 
 
 -(UIImage *)convertImage:(UIImage*)input WithFont:(UIFont*)font bgColor:(UIColor*)bgColor
-                 columns:(int)columns reversed:(BOOL)reversed grayscale:(BOOL)grayscale{
+                 columns:(CGFloat)columns reversed:(BOOL)reversed grayscale:(BOOL)grayscale{
     
     if (input == nil) {
         NSLog(@"BKAsciiConverter: input image is nil!");
@@ -113,7 +113,7 @@
     BOOL opaque = ![self isTransparent];
     CGFloat fontSize = [font pointSize];
     CGFloat asciiGridWidth = columns;
-    UIImage *scaledImage = [self downscaleImage:input WithFactor: asciiGridWidth];
+    UIImage *scaledImage = [self downscaleImage:input WithFactor:asciiGridWidth];
     BlockGrid *pixelGrid = [self pixelGridForImage:scaledImage];
     
     UIGraphicsBeginImageContextWithOptions(input.size, opaque, 0.0);

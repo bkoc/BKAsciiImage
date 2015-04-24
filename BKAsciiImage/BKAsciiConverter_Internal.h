@@ -49,9 +49,9 @@ typedef struct block {
 @property (nonatomic, readonly) int width;
 @property (nonatomic, readonly) int height;
 
-- (instancetype) initWithWidth:(int)width height:(int)height NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithWidth:(int)width height:(int)height NS_DESIGNATED_INITIALIZER;
 
-- (block_t) blockAtRow:(int)row col:(int)col;
-- (void) copyBlock:(block_t *)block toRow:(int)row col:(int)col;
+- (block_t)blockAtRow:(int)row col:(int)col;
+- (void)copyBlock:(block_t *)block toRow:(int)row col:(int)col;
 @end
 

@@ -61,7 +61,7 @@
 
 - (void)bk_asciiImageWithFont:(UIFont*)font
                       bgColor:(UIColor*)bgColor
-                      columns:(int)columns
+                      columns:(CGFloat)columns
                      reversed:(BOOL)reversed
                     grayscale:(BOOL)grayscale
             completionHandler:(void (^)(UIImage *asciiImage))handler{
